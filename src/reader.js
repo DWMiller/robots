@@ -1,3 +1,12 @@
+/**
+ * Summary 
+ * A file is opened and valid characters (v^<>) are stored in an array, 
+ * to be returned one at a time when next() is called. 
+ * 
+ * File contents are read line by line, as needed, with the array repopulated 
+ * with the line contents. 
+ */
+
 const lineReader = require('line-reader');
 
 const state = {
